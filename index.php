@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Identifiants valides, stocke le nom d'utilisateur dans la session
         $_SESSION["userName"] = $userName;
 
-        // Partie à modifier
+        
         header("Location: vues/AccueilAdmin.php");
         exit;
     }
