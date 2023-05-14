@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     {
         $_SESSION["userName"] = $userName;
 
-        // Partie à modifier Ici c'est la page vers laquelle tu accede quand tu te connecter
+      
        header("Location: vues/AccueilEdit.php");
         exit;
     }
