@@ -1,0 +1,56 @@
+body {
+    background-color: #f2f2f2;
+}
+h1 {
+    font-size: 350%;
+    text-align: center;
+    color: #421313;
+    text-shadow: 0 0 20px black;
+}
+p {
+    color: #633b23;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 390%;
+    text-align: center;
+    color: #1e0905;
+    text-shadow: 0 0 20px black;
+    margin-top: 100px;
+}
+p {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.slider-img {
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+}
+
+.bottom-center {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+footer {
+    border-top: 1px solid #ccc; /* ajoute une bordure en haut du footer */
+    padding: 20px 0; /* ajoute un peu de rembourrage pour espacer la bordure du contenu du footer */
+}
